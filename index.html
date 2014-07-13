@@ -9,7 +9,7 @@
       {% if greeting.author %}
         <b>{{ greeting.author.nickname() }}</b> wrote:
       {% else %}
-       An anonymous person wrote:
+       An anonymous person (or Vu) wrote:
       {% endif %}
       <blockquote>{{ greeting.content }}</blockquote>
     {% endfor %}
